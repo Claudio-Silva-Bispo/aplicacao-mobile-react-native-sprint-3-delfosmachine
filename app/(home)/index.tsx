@@ -34,7 +34,7 @@ export default function Page() {
           <CustomButton 
             title="Parceiros" 
             textColor="#fff" 
-            onPress={() => router.push('/')}
+            onPress={() => router.push('/homePartners')}
             width="90%" 
           />
         </View>

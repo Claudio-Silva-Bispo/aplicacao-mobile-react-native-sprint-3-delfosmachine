@@ -12,7 +12,7 @@ import { doc, getDoc } from "firebase/firestore";
 import { Image } from 'expo-image';
 import { router } from "expo-router";
 
-const LoginClienteScreen: React.FC<{ navigation: any }> = ({ navigation }) => {
+const SignIn: React.FC<{ navigation: any }> = ({ navigation }) => {
   const [email, setEmail] = useState("");
   const [senha, setSenha] = useState("");
 
@@ -140,4 +140,4 @@ const styles = StyleSheet.create({
   },
 });
 
-export default LoginClienteScreen;
+export default SignIn;

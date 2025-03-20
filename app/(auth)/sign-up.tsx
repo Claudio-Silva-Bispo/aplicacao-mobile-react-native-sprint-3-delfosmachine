@@ -10,7 +10,7 @@ import Footer from '../components/Footer';
 import { Image } from 'expo-image';
 import { router } from 'expo-router';
 
-const CadastroClienteScreen: React.FC<{ navigation: any }> = ({ navigation }) => {
+const SignUp: React.FC<{ navigation: any }> = ({ navigation }) => {
   const [email, setEmail] = useState('');
   const [senha, setSenha] = useState('');
   const [isFocused, setIsFocused] = useState(false);
@@ -128,4 +128,4 @@ const styles = StyleSheet.create({
   },
 });
 
-export default CadastroClienteScreen;
+export default SignUp;

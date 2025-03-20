@@ -17,6 +17,8 @@ export default function RootLayout() {
           <Stack.Screen name="(home)" options={{ headerShown: false }} />
           <Stack.Screen name="homeClient" options={{ headerShown: false }} />
           <Stack.Screen name="(auth)" options={{ headerShown: false }} />
+          <Stack.Screen name="homePartners" options={{ headerShown: false }} />
+          <Stack.Screen name="(authPartners)" options={{ headerShown: false }} />
           <Stack.Screen name="+not-found" />
         </Stack>
         <StatusBar style="auto" />

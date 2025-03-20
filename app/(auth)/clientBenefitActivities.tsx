@@ -26,9 +26,9 @@ const atividades = [
 
   const toggleExpand = (index: number) => {
     if (expandedIndex === index) {
-      setExpandedIndex(null); // Recolhe se já estiver expandido
+      setExpandedIndex(null); 
     } else {
-      setExpandedIndex(index); // Expande a seção
+      setExpandedIndex(index); 
     }
   };
 

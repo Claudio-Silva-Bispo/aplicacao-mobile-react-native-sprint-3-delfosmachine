@@ -7,7 +7,7 @@ import { doc, getDoc } from "firebase/firestore";
 import {signOut} from 'firebase/auth'
 import { router } from "expo-router";
 
-const SessaoRestritaScreen: React.FC<{ navigation: any }> = ({ navigation }) => {
+const RestrictedSessionClient: React.FC<{ navigation: any }> = ({ navigation }) => {
   
   const user = auth.currentUser;
   const [nome, setNome] = useState<string>("");
@@ -107,4 +107,4 @@ const styles = StyleSheet.create({
   },
 });
 
-export default SessaoRestritaScreen;
+export default RestrictedSessionClient;

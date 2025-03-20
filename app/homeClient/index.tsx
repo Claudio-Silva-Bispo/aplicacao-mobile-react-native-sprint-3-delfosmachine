@@ -7,7 +7,7 @@ import { router } from 'expo-router';
 import { Image } from 'expo-image'
 
 
-const HomeClientScreen: React.FC<{}> = () => {
+const HomeClient: React.FC<{}> = () => {
 
   
   return (
@@ -91,4 +91,4 @@ const styles = StyleSheet.create({
   },
 });
 
-export default HomeClientScreen;
+export default HomeClient;
